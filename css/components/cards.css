@@ -1,0 +1,104 @@
+.card-home{
+ 
+  align-items: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  white-space: pre-line;
+}
+
+.card-home h2{
+
+ color: #003278;
+}
+.card-home h6{
+  padding-bottom: 1%;
+  color: #003278;
+}
+
+p span{
+  border-bottom: solid 2px ;
+  color: #00B8B0;
+ 
+ }
+
+.card-epoc h2{
+  
+  color: #003278;
+ }
+ 
+.card-epoc ul{
+  color:#003278
+}
+.fas{
+  color: #00B8B0 !important;
+}
+ .card-epoc span{
+   color: #00B8B0;
+ }
+ .card-epoc p{
+   color: #003278;
+ }
+ #epoc{
+  color: #00B8B0;
+  background-color: white;
+ }
+
+ .quienes-somos{
+   color:  #00B8B0;
+ }
+ .b-especialistas{
+   border: solid 1px  #00B8B0;
+   padding: 1.5%;
+   background-color:#00B8B0;
+   color:white;
+   text-decoration: none !important ;
+ }
+ 
+ #p-asma{
+   font-size: 85%;
+ }
+
+ .card-epoc h3{
+   color: #00B8B0;
+ }
+ .links_estilo{
+  border: solid 1px  #00B8B0;
+  padding: 1.5%;
+  background-color:#00B8B0;
+  color:white;
+ }
+
+.caja-texto{
+  border: solid 1px #00B8B0;
+  color:#003278;
+  font-size: medium !important;
+  margin-top: 1em;
+}
+.card-epoc i{
+  color: #003278;
+} 
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:130px; 
+  margin:-130px 0 0;
+}
+@media(max-width: 600px){
+  .jumptarget::before {
+    content:"";
+    display:none;
+    height:130px; 
+    margin:-130px 0 0;
+  }
+}
+.width-ajustado {
+  width: 75%;
+  font-size: medium !important;
+}
+
+@media(max-width: 600px){
+  .width-ajustado{
+    width: 100%;
+  }
+}

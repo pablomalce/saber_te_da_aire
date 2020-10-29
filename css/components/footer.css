@@ -1,0 +1,13 @@
+footer{
+  background-color: #f8f8f8;
+  color: #003278;
+  font-size: small;
+}
+footer a {
+  color: #003278;
+  font-size: medium;
+}
+footer p {
+  border-top: solid 1px #003278;
+  font-size: small;
+}

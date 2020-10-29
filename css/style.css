@@ -1,0 +1,56 @@
+@import url("components/navbar.css"); 
+@import url("components/home.css");
+@import url("components/footer.css");
+@import url("components/cards.css");
+@import url("components/epoc.css");
+
+
+@import url("https://fonts.google.com/specimen/Barlow+Condensed?query=barlow&sidebar.open=true&selection.family=Barlow+Condensed:wght@100");
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap');
+
+
+
+body p{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+}
+body h1{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 280%;
+}
+a:hover{
+text-decoration: none;
+}
+.banner{
+  background-size: cover;
+  padding: 9%;
+  
+ 
+  }
+.banner h1{
+  color:white;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+}
+h2, h3{
+  font-size: xx-large;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+}
+h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+}
+
+ul>li>a:hover {
+  background-color: #295da7!important;
+  color: aliceblue!important;
+  border-radius: 4px;
+}
+ 
+
+

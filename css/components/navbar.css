@@ -1,0 +1,35 @@
+.nombres{
+  color: #003278 !important;
+  font-size:x-large;
+  
+  margin: 4px !important;
+  margin-left: 4px;
+  font-weight: 500;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+
+.navbar-color{
+  background-color:#f8f8f8
+}
+
+#stda-logo{
+  width: 5em;
+ 
+}
+
+#gsk-logo{
+  width: 2em;
+  margin-left: 4%;
+}
+.rs{
+ width: 1.8em;
+}
+
+.barra-abajo{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: larger;
+}
+
+
