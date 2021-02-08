@@ -3,11 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style id="antiClickjack">
+    body{display:none !important;}
+  </style>
+  <script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+  </script>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Saber te da aire</title>
 </head>
 <body>
+  <script type='text/javascript'>
+    (function(a,b,c,d){
+       a='//tags.tiqcdn.com/utag/gsk/profile-rx-ar/prod/utag.js';
+       b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+       a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+    </script>
+
+
+
   <div class="navbar-color sticky-top">
   <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -30,10 +52,10 @@
           <a class="nav-link nombres" href="especialistas.html">ESPECIALISTAS</a>
         </li>
         <li class="nav-item d-lg-none d-flex justify-content-start">
-            
-              <a href="https://www.facebook.com/SaberTeDaAire/" target="_blank"><img src="img/Logo-Facebook.png" alt="Logo facebook" class="mx-2 rs"></a>
-              <a href="https://www.youtube.com/channel/UCK00Fzt3E11qQYwAR3HSrMw" target="_blank"><img src="img/Logo-Youtube.png" alt="Logo youtube" class="mx-2 rs "></a>
-              <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank"><img src="img/Logo-Instagram.png" alt="Logo Instagram" class="mx-2 rs"></a>      
+
+              <a href="https://www.facebook.com/SaberTeDaAire/" target="_blank" rel="nofollow"><img src="img/Logo-Facebook.png" alt="Logo facebook" class="mx-2 rs"></a>
+              <a href="https://www.youtube.com/channel/UCK00Fzt3E11qQYwAR3HSrMw" target="_blank" rel="nofollow"><img src="img/Logo-Youtube.png" alt="Logo youtube" class="mx-2 rs "></a>
+              <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank" rel="nofollow"><img src="img/Logo-Instagram.png" alt="Logo Instagram" class="mx-2 rs"></a>
                <a id="gsk-logo" href="index.html"><img id="gsk-logo" src="img/GSK.png" alt="GSK logo"></a>
         </li>
       </ul>
@@ -44,11 +66,11 @@
       <li class="nav-item">
       <div class="ml-lg-4">
          <div class="color-mode d-lg-flex justify-content-center align-items-center">
-          <a href="https://www.facebook.com/SaberTeDaAire/" target="_blank"><img src="img/Logo-Facebook.png" alt="Logo facebook" class="mx-2 rs"></a>
-          <a href="https://www.youtube.com/channel/UCK00Fzt3E11qQYwAR3HSrMw" target="_blank"><img src="img/Logo-Youtube.png" alt="Logo youtube" class="mx-2 rs"></a>
-          <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank"><img src="img/Logo-Instagram.png" alt="Logo Instagram" class="mx-2 rs"></a>      
-           <a id="gsk-logo" href="index.html" target="_blank"><img id="gsk-logo" src="img/GSK.png" alt="GSK logo"></a>
-        </div> 
+          <a href="https://www.facebook.com/SaberTeDaAire/" target="_blank" rel="nofollow"><img src="img/Logo-Facebook.png" alt="Logo facebook" class="mx-2 rs"></a>
+          <a href="https://www.youtube.com/channel/UCK00Fzt3E11qQYwAR3HSrMw" target="_blank" rel="nofollow"><img src="img/Logo-Youtube.png" alt="Logo youtube" class="mx-2 rs"></a>
+          <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank" rel="nofollow"><img src="img/Logo-Instagram.png" alt="Logo Instagram" class="mx-2 rs"></a>
+           <a id="gsk-logo" href="index.html" target="_blank" rel="nofollow"><img id="gsk-logo" src="img/GSK.png" alt="GSK logo"></a>
+        </div>
        </div>
     </li>
     </ul>
@@ -57,7 +79,8 @@
   </div>
   </div>
 
-   
+
+
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-12">
@@ -70,27 +93,36 @@
               <div class="carousel-item active">
                 <img src="img/Rotador-1.png" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item">
-                <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank">
-                <img src="img/BPportada.png" class="d-block w-100" alt="...">
-              </a>
+              <div class="carousel-item carrusel-banner" style="background-image: url('img/PMEDICOSB.jpg')">
+                  <h1 class="mb-4">#SaberTeQuitaLasDudas</h1>
+                  <h4 class="mb-lg-3">Es nuestra sección en la red social Instagram <br>donde todos los meses un equipo  médico <br>responde tus consultas en VIVO. </h4>
+                  <a class="btn rounded-pill mt-lg-5 btn-banner-lg" href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f"  role="button" target="_blank" rel="nofollow">SEGUINOS EN INSTAGRAM</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div class="row p-2">
         <div class="col-12 col-lg-6 p-2">
-          <a href="asma.html"> <img src="img/BPb01.png" class=" w-100 " alt="image de mujere tosiendo"></a>
+          <div class="asma-banner mb-lg-4" style="background-image: url('img/PASMASB.jpg')">
+            <h1 class="my-2 mb-lg-5">Podría ser Asma</h1>
+                  <h4 class="my-3 mb-lg-5 pb-lg-4">¿Tenés dificultad para <br> respirar, silbidos en el <br> pecho y tos seca?</h4>
+                  <a class="btn rounded-pill btn-banner" href="asma.html"  role="button">CONOCÉ LOS SÍNTOMAS</a>
+          </div>
         </div>
         <div class="col-12 col-lg-6 p-2">
-          <a href="epoc.html"> <img src="img/BPb02.png" class=" w-100" alt="image de hombre tosiendo"></a>
+          <div class="epoc-banner" style="background-image: url('img/PEPOCSB.jpg')">
+            <h1>¿Y si es <br>
+              EPOC? </h1>
+                  <h4>Cuando levantás peso, <br> te quedás sin aire... </h4>
+                  <a class="btn rounded-pill mt-lg-5 btn-banner" href="epoc.html"  role="button" >DESCUBRÍ MÁS</a>
+          </div>
         </div>
       </div>
     </div>
-  
-   
+
+
 
     <div class="b-color pb-5">
       <div class="container">
@@ -104,11 +136,11 @@
           </div>
         </div>
       </div>
-     
+
           <div class="container mt-lg-5 pt-lg-5">
           <div class="row">
               <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex justify-content-center align-items-center">
-                <a href="https://www.instagram.com/p/B7EtRmop3JD/?igshid=auhws7d8d0nz" target="_blank"><img src="img/GH02.gif" alt="gift sobre asma y epoc" class="width-ajustado"></a>
+                <a href="https://www.instagram.com/p/B7EtRmop3JD/?igshid=auhws7d8d0nz" target="_blank" rel="nofollow"><img src="img/GH02.gif" alt="gift sobre asma y epoc" class="width-ajustado"></a>
               </div>
                 <div class="card-home pt-lg-5 pr-lg-5 col-12 col-lg-6 order-lg-2 order-1t d-flex justify-content-center align-items-center" >
                   <div class="width-ajustado pt-lg-5 my-lg-5">
@@ -116,51 +148,48 @@
                     <p><span>¿CONOCÉS LAS DIFERENCIAS?
                 </div>
               </div>
-           </div> 
-           
+           </div>
+
            <div class="row">
              <div class=" my-lg-5 py-lg-5  col-12 col-lg-6 d-flex justify-content-center align-items-center">
                <div class="card-home width-ajustado" >
                   <h2 class="font-weight-bold">Seguir una alimentación <br> sana y equilibrada es <br> primordial para controlar <br>el asma y la EPOC</h2>
-                  
+
                   <h6>Estos son alimentos que no deben <br>faltar en tu dieta.<h6>
                    <p><span>MIRÁ EL VIDEO</span></p>
                 </div>
                 </div>
                 <div class="col-12 col-lg-6 my-5 py-lg-5 d-flex justify-content-center align-items-center">
-                    <a href="https://www.instagram.com/p/B9DKalyAaxf/?igshid=874knxzhfmyx" target="_blank"> 
+                    <a href="https://www.instagram.com/p/B9DKalyAaxf/?igshid=874knxzhfmyx" target="_blank" rel="nofollow">
                   <img src="img/GH01.gif" alt="gift sobre asma y epoc" class="width-ajustado"></a>
                 </div>
               </div>
             </div>
-       
-   
- 
+
+
+
 
     <footer class="text-center">
       <div class="container pt-4">
         <div class="d-lg-flex d-block justify-content-between ">
           <div>
-          <a href="http://" class="flex itemn" target="_blank">Términos y condiciones</a>
-          </div> 
-          <div>
-          <a href="http://" class="flex itemn" target="_blank">Políticas de privacidad</a>
+          <a href="terminos_y_condiciones.html" class="flex itemn" target="_blank" rel="nofollow">Términos y condiciones</a>
           </div>
           <div>
-          <a href="https://ar.gsk.com/en-gb/contacto/" class="flex itemn" target="_blank">Contacto</a> 
+          <a href="politica_de_privacidad.html" class="flex itemn mr-lg-5 pr-lg-5" target="_blank" rel="nofollow">Políticas de privacidad</a>
           </div>
           <div>
-          <a href="http://" class="flex itemn" target="_blank" target="_blank">Política de cookies</a>
+          <a href="https://ar.gsk.com/en-gb/contacto/" class="flex itemn" target="_blank" rel="nofollow">Contacto</a>
           </div>
         </div>
         <br>
         <div>
-          <a href="https://www.facebook.com/SaberTeDaAire/" target="_blank"><img src="img/Logo-Facebook.png" alt="Logo facebook" class="mx-2 rs"></a>
-          <a href="https://www.youtube.com/channel/UCK00Fzt3E11qQYwAR3HSrMw" target="_blank"><img src="img/Logo-Youtube.png" alt="Logo youtube" class="mx-2 rs"></a>
-          <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank"><img src="img/Logo-Instagram.png" alt="Logo Instagram" class="mx-2 rs " ></a>
+          <a href="https://www.facebook.com/SaberTeDaAire/" target="_blank" rel="nofollow"><img src="img/Logo-Facebook.png" alt="Logo facebook" class="mx-2 rs"></a>
+          <a href="https://www.youtube.com/channel/UCK00Fzt3E11qQYwAR3HSrMw" target="_blank" rel="nofollow"><img src="img/Logo-Youtube.png" alt="Logo youtube" class="mx-2 rs"></a>
+          <a href="https://instagram.com/sabertedaaire?igshid=wktw3of2q77f" target="_blank" rel="nofollow"><img src="img/Logo-Instagram.png" alt="Logo Instagram" class="mx-2 rs " ></a>
           <h5 class="pt-1">Seguinos</h5>
         </div>
-      </div>  
+      </div>
       <div class="my-2 container">
         <p class="mb-1">&copy 2020 Grupo de compañias GSK. Todos los derechos reservados. Marcas registradas son propiedad o licenciadas por GSK. <br>
           Este sitio está orientado a personas fisicas residentes en Argentina. <br>
@@ -174,7 +203,7 @@
 
 
 
- 
+
 
 
 

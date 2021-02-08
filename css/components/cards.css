@@ -1,8 +1,8 @@
 .card-home{
  
   align-items: center;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+
   white-space: pre-line;
 }
 
@@ -13,6 +13,9 @@
 .card-home h6{
   padding-bottom: 1%;
   color: #003278;
+  font-size: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 200;
 }
 
 p span{
@@ -27,7 +30,10 @@ p span{
  }
  
 .card-epoc ul{
-  color:#003278
+  color:#003278;
+  font-size: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 200;
 }
 .fas{
   color: #00B8B0 !important;
@@ -37,10 +43,15 @@ p span{
  }
  .card-epoc p{
    color: #003278;
+  font-size: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 200;
+   
  }
  #epoc{
   color: #00B8B0;
   background-color: white;
+  
  }
 
  .quienes-somos{
@@ -51,7 +62,20 @@ p span{
    padding: 1.5%;
    background-color:#00B8B0;
    color:white;
-   text-decoration: none !important ;
+   font-size: 20px;
+   text-decoration: none !important;
+   font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold!important;
+
+ }
+ .b-especialistas:hover{
+  border: solid 1px  #00B8B0;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold!important;
+  padding: 1.5%;
+  background-color: white;
+  color:#00B8B0;
+  text-decoration: none !important ;
  }
  
  #p-asma{
