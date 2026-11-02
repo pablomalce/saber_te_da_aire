@@ -9,18 +9,18 @@ Built between October 2020 (first commit) and February 2021 (last commit). The p
 ## What it does
 
 - Home page with banners that link to the asthma and COPD sections, a patient story section and Instagram calls to action.
-- `asma.html` and `epoc.html`: symptom, trigger, diagnosis and myth/fact content built from images and embedded Instagram posts. `asma 2.html` and `asma 3.html` are unlinked layout drafts of the asthma page.
+- `asma.html` and `epoc.html`: symptom, trigger, diagnosis and myth/fact content built from images that link to Instagram posts, plus embedded YouTube videos. `asma 2.html` and `asma 3.html` are unlinked layout drafts of the asthma page; only these drafts use Instagram post embeds.
 - `especialistas.html`: links to the specialist directories of two Argentine medical associations.
 - About, terms and conditions, and privacy policy pages.
 - Small anti-clickjacking script in the page head, plus the client's tag-manager include.
 
 ## Stack
 
-Plain HTML and CSS (one global stylesheet plus per-component files in `css/components/`), Bootstrap 4.5 with jQuery 3.5 and Popper from CDNs, Font Awesome and Instagram embeds. There is no build step, package manifest or tests.
+Plain HTML and CSS (one global stylesheet plus per-component files in `css/components/`), Bootstrap 4.5 with jQuery 3.5 and Popper from CDNs, Font Awesome, and YouTube embeds (Instagram embeds only in the drafts). There is no build step, package manifest or tests.
 
 ## Run it
 
-Open `index.html` in a browser, or serve the folder with any static server, for example `python3 -m http.server`. You need a network connection for the CDN assets and Instagram embeds.
+Open `index.html` in a browser, or serve the folder with any static server, for example `python3 -m http.server`. You need a network connection for the CDN assets and the YouTube and Instagram content.
 
 Note: the `img/` folder includes several large animated GIFs (up to about 16 MB each), so the clone is about 150 MB.
 
